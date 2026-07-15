@@ -22,7 +22,7 @@
 \DeclareMathOperator{\Span}{span}
 
 \title{No finite level of the NPA hierarchy is exact\\ for the doubly-tilted CHSH functional near the critical tilt}
-\author{Anton Pakhunov\\ \small Independent researcher\\ \small \texttt{pakhunov.anton.n@gmail.com}\thanks{Exact rational/integer verification code and certificate data accompany this note as ancillary files; see Appendix~\ref{app:verif}.}}
+\author{Anton Pakhunov\\ \small Independent researcher\\ \small \texttt{pakhunov.anton.n@gmail.com}\thanks{Exact rational/integer verification code and certificate data: \url{https://github.com/tohafrit/npa-nonexactness} (see Appendix~\ref{app:verif}).}}
 \date{July 2026 --- draft v1}
 
 \begin{document}
@@ -1527,7 +1527,10 @@ no finite level suffices.
 
 \section{Verification programs}\label{app:verif}
 
-Every claim entering the proofs is either a finite hand-checkable
+The complete verification suite, together with both papers, is available at
+\url{https://github.com/tohafrit/npa-nonexactness}; \texttt{run\_all\_checks.sh}
+reproduces every machine check below in about forty seconds. Every claim
+entering the proofs is either a finite hand-checkable
 argument or an exact machine computation (integer or rational arithmetic
 throughout; no floating point enters any proof). The finite computations
 are constituent parts of the proofs, with the degree/coverage lemmas
