@@ -203,7 +203,7 @@ exact machine verification (Appendix~\ref{app:verif}).
   tangent direction that quantum mechanics forbids.
 \end{enumerate}
 
-The entire chain was subsequently re-checked by an adversarial audit ---
+The entire chain was subsequently re-checked by an independent verification pass ---
 freshly written code for the witness identity and for a long-length attack
 on the regime lemmas, independent driver scripts over the shared exact
 stack for the remaining items (the per-item provenance is stated in
@@ -1576,7 +1576,7 @@ jets behind Corollary~\ref{cor:ladder}: exact rational tangent-program
 certificates for $v_2>\tfrac1{39}$, $v_3>\tfrac1{188}$,
 $v_4>\tfrac1{641}$ (data in \texttt{v\{2,3,4\}\_cert\_data.py}) &
 seconds--minutes\\
-\texttt{audit\_spot.py} & the adversarial audit S1--S5 (per-item
+\texttt{audit\_spot.py} & the independent re-verification S1--S5 (per-item
 provenance below), including the composition step: $y^\ast$ evaluated in
 the certificate bases at $k=2,3,4$ gives exactly
 $N_s^\top M_s(y^\ast)N_s=4uu^\top$, antisymmetric compression $0$, pins,
@@ -1602,7 +1602,7 @@ The machine checks of this audit are collected in \texttt{audit\_spot.py}
 it per item. \emph{Freshly written code} (S1, S2: own word/reduction/%
 kernel/$u_k$/$y^\ast$ implementations, sharing nothing with the
 development stack): a reproduction of $P(y^\ast)=u_ku_k^\top$ at
-$k=2,\dots,6$ with pins and anchors (S1), and an adversarial attack on the
+$k=2,\dots,6$ with pins and anchors (S1), and a stress test of the
 fine-regime completeness of Lemmas~\ref{lem:regime}--\ref{lem:grid} with
 $18{,}915$ targeted extreme pairs and $150{,}000$ random pairs at side
 lengths up to $61$ (S2), backed by a hand re-derivation of
@@ -1637,10 +1637,10 @@ hierarchy of semidefinite programs characterizing the set of quantum
 correlations}, New J.\ Phys.\ \textbf{10}, 073013 (2008).
 \bibitem{overshoot} A.~Pakhunov, \emph{A phase transition in the exactness
 of the NPA hierarchy at the critical doubly-tilted CHSH functional},
-companion note (2026).
+arXiv:2607.13774 (2026).
 \bibitem{sep} A.~Pakhunov, \emph{A certified separation of the
 almost-quantum set from the quantum set in the minimal Bell scenario},
-companion note (2026).
+in preparation (2026).
 \bibitem{BB} V.~Barizien, J.-D.~Bancal, \emph{Quantum statistics in the
 minimal scenario}, Nat.\ Phys.\ \textbf{21}, 577 (2025); arXiv:2406.09350.
 \bibitem{KLM} I.~Klep, J.~Levenson, S.~McCullough, \emph{Fej\'er--Riesz

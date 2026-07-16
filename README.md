@@ -5,7 +5,8 @@
 This repository accompanies the paper
 
 > *No finite level of the NPA hierarchy is exact for the doubly-tilted CHSH
-> functional near the critical tilt* (2026), `paper/npa_nonexactness_proof.pdf`
+> functional near the critical tilt*, arXiv:2607.13762,
+> `paper/npa_nonexactness_proof.pdf`
 
 which resolves the open question of Gigena, Panwar, Scala, Araújo, Farkas and
 Chaturvedi [npj Quantum Inf. **11**, 82 (2025)]: for the critical family
@@ -15,7 +16,7 @@ critical point**. For every level k ≥ 2 there are certified rational g_k > 0
 and s*_k > 0 with c_k(s) ≥ 4 − s + g_k s² on (0, s*_k], while the quantum
 value is cubically flat. Unconditionally a_2 > 1/39, a_3 > 1/188, a_4 > 1/641.
 
-The companion note (`companion/`) develops the phase-transition geometry the
+The companion note (arXiv:2607.13774, `companion/`) develops the phase-transition geometry the
 proof is built on (supercritical exactness theorem, Motzkin scaling limit,
 the exact almost-quantum coefficient 3/64, the certified non-exactness
 ladder).
@@ -51,4 +52,7 @@ the environment used for the reported runs).
 
 ## Citing
 
-Until the arXiv IDs exist, please cite the paper by title and this repository.
+    A. Pakhunov, "No finite level of the NPA hierarchy is exact for the
+    doubly-tilted CHSH functional near the critical tilt", arXiv:2607.13762.
+    A. Pakhunov, "A phase transition in the exactness of the NPA hierarchy
+    at the critical doubly-tilted CHSH functional", arXiv:2607.13774.
